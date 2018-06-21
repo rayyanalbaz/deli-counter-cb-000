@@ -14,7 +14,7 @@ def line(array)
   end
 end
 
-def take_a_number(array , line)
-
+def take_a_number(array , name)
+  array << name
 
 end
