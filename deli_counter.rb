@@ -5,7 +5,11 @@ def line(array)
   if array.size < 1 then
     puts "The line is currently empty."
   else
-    return array
+    list = []
+    array.each_with_index do |name , index|
+      list << "#{index + 1}. #{name}"
+    end
+    puts "The line is currently: #{list}"
   end
 
 
