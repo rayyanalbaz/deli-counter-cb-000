@@ -13,3 +13,8 @@ def line(array)
     puts "The line is currently: #{string}"
   end
 end
+
+def take_a_number(array , line)
+
+
+end
